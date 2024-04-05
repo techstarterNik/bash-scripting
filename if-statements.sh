@@ -18,7 +18,7 @@ fi
 if [ "$VAR1" == $VAR2 ]
 then
     echo Equal!
-elif [ "$VAR1" == $VAR1 ]
+elif [ "$VAR1" == $VAR1 ] # warum nicht ausgeführt?
 then
     echo Tricky Equal!
 else
