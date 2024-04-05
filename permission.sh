@@ -1,3 +1,5 @@
+# git config --global core.autocrlf false
+#!/bin/bash
 DIRECTORY=`pwd`
 LOOP=`ls`"$DIRECTORY"
 
