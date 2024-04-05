@@ -1,0 +1,4 @@
+git config --global core.autocrlf false
+
+chmod +x filename
+chmod 755 filename
