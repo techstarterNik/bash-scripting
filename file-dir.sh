@@ -29,12 +29,3 @@ done
 # Erstelle ein Programm, in das der Nutzer einen Dateiname/Ordnernamen eingeben kann und dann überprüft wird ob es existiert, 
 # bzw ob es eine Datei/Ordner ist.
 
-DIRECTORY=`pwd`
-LOOP=`ls`"$DIRECTORY"
-
-for arg in "$LOOP"
-do
-    chmod +x "$arg"
-    chmod 755 "$arg"
-    echo "$arg"
-done
